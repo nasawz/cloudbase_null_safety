@@ -1,0 +1,19 @@
+name: cloudbase_storage
+description: Flutter plugin for cloudbase storage.
+version: 0.0.3
+homepage: https://github.com/TencentCloudBase
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloudbase_core:
+    path: ../../plugins/cloudbase_core
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  path_provider: ^2.0.7
+
